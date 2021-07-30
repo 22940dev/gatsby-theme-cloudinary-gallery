@@ -6,13 +6,13 @@ import Heading from "../components/Heading.js";
 const Homepage = () => {
   const data = useStaticQuery(graphql`
     query {
-      allCloudinaryGallery {
+      
         nodes {
           public_id
           id
           cloud_name
         }
-      }
+      
     }
   `);
 
